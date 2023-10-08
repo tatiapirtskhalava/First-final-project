@@ -1,0 +1,333 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav img{
+    width: 185px;
+    height: 185px;
+    margin-top: -30px;
+    
+}
+nav{
+    height: 150px;
+    
+}
+nav ul{
+    height: 150px!important;
+}
+nav ul li{
+    margin-top: 30px;
+    z-index: 5;
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    
+}
+nav ul li a{
+    color: black!important;
+    font-size: 18px;
+   
+}
+nav ul li a:hover {
+    color: #5fcac7!important;
+}
+
+
+.icons ul li img{
+    width: 21px;
+    height: 22px;
+    margin:  10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.icons  ul{
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    margin-top: -160px;
+    padding: 0px 40px;
+    list-style: none;
+}
+.layer1{
+    width: 430px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+
+.firstbackground{
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/1920x400.jpg);
+    --mask:
+ radial-gradient(32.02px at 50% 45.00px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 51% repeat-x,
+ radial-gradient(32.02px at 50% -25px,#0000 99%,#000 101%) 50% 20px/80px calc(51% - 20px) repeat-x,
+ radial-gradient(32.02px at 50% calc(100% - 45.00px),#000 99%,#0000 101%) calc(50% - 40px) 100%/80px 51% repeat-x,
+ radial-gradient(32.02px at 50% calc(100% + 25.00px),#0000 99%,#000 101%) 50% calc(100% - 20px)/80px calc(51% - 20px) repeat-x;
+-webkit-mask: var(--mask);
+       mask: var(--mask);
+       display: flex;
+       justify-content: center;
+       margin-top: -50px;
+}
+.layer1 h1{
+    font-size: 51px;
+    font-family:'Merienda', cursive;
+    color: white;
+    font-weight: 700;
+}
+.layer1 li{
+    font-size: 17px;
+    font-family:  'ABeeZee', sans-serif;
+    font-weight: 300;
+    color: white;
+    list-style-type: none;
+}
+.layer1 ul {
+    display: flex;
+    gap: 5px;
+
+}
+main{
+    width: 100%;
+    height: 950px;
+    
+}
+.innerInfo{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.innerInfo img{
+    width: 221px;
+    height: 41px;
+}
+.innerInfo h2{
+    font-size: 48px;
+}
+.innerInfo p{
+    font-size: 17px;
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: 20px;
+}
+.TimeDiv{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TimeDiv h4{
+font-size: 27px;
+font-family:'Merienda', cursive;
+color: #4B4342;
+font-weight: 600;
+}
+.TimeDiv p{
+color: #4B4342;
+font-size: 17px;
+font-family: 'ABeeZee', sans-serif;
+margin: 0px;
+}
+.MainFormDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.InputArea{
+    width: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.InputArea h4{
+    font-size: 27px;
+font-family:'Merienda', cursive;
+color: #4B4342;
+font-weight: 600;
+}
+.InputAreaForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+.InputAreaForm input{
+    width: 100%;
+    height: 42px;
+    border-radius: 3px ;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+.InputAreaForm textarea{
+    width: 100%;
+    height: 135px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+.InputAreaForm button{
+    width: 160px;
+    height: 42px;
+    border-radius: 3px ;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    background-color: white;
+    color: #4B4342;
+    font-family:'Merienda', cursive;
+}
+.MapSection{
+    height: 450px;
+    margin-top: -270px;
+}
+.lastSection{
+    width: 100%;
+    height: 595px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/Footer_1920x600-1.jpg);
+    background-position: center;
+    margin-top: -80px;
+    --mask:
+    radial-gradient(43.24px at 50% 58.80px,#000 99%,#0000 101%) calc(50% - 42px) 0/84px 100%,
+    radial-gradient(43.24px at 50% -37.8px,#0000 99%,#000 101%) 50% 21px/84px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+         
+}
+ .lastSectionBg{
+    background-color: #554845e9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+ }
+ .lastPoto{
+    width: 300px;
+    height: 300px;
+ }
+ .lastPoto img{
+    width: 100%;
+    height: 100%;
+ }
+ .rightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -150px;
+ }
+ .rightSide span{
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    color: white;
+
+ }
+ .rightSide svg{
+    width: 52px;
+    height: 25px;
+    fill: white;
+    margin-top: 10px;
+ }
+ .inputDiv{
+    margin-top: 5px;
+    width: 360px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+ }
+.inputDiv button{
+    width: 60px;
+    height: 42px;
+    padding: 0px 10px;
+    border-radius: 6px;
+   
+}
+.inputDiv button img{
+    width: 100%;
+    height: 100%;
+}
+
+ 
+ .UlSvgDiv{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -230px!important;
+}
+.UlSvgDiv span{
+    font-size: 30px;
+    color: white;
+    font-family: 'Merienda', cursive;
+    margin-top: 150px;
+    font-weight: 600;
+}
+.LogoSvgDiv{
+    width: 53px;
+    height: 25px;
+    margin-top: 10px;
+
+}
+ .LogoSvgDiv svg{
+   fill: white;
+}
+.UlSvgDiv ul li svg{
+    width: 60px;
+    height: 60px;
+}
+.UlSvgDiv ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 20px;
+}
+.logosvg:hover{
+    fill: #4b4342!important;
+    stroke: #4b4342!important;
+    transition: 500ms;
+}
+.logosvg:hover img {
+    filter: brightness(0) invert(1);
+    transition: 500ms;
+}
+footer{
+    background-color: #362d2bbc;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    margin-top: 500px;
+    --mask:
+    radial-gradient(21.53px at 50% 30.40px,#000 99%,#0000 101%) calc(50% - 32px) 0/64px 100%,
+    radial-gradient(21.53px at 50% -14.4px,#0000 99%,#000 101%) 50% 16px/64px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+footer p{
+    margin-top: 50px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
